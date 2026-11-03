@@ -1,0 +1,148 @@
+{
+  "architects": [
+    {
+      "id": "e7b03d98",
+      "name": "علی رضایی",
+      "specialty": "معماری مسکونی",
+      "phone": "09121234567"
+    },
+    {
+      "id": "8a5c0a40",
+      "name": "سارا احمدی",
+      "specialty": "طراحی داخلی",
+      "phone": "09127654321"
+    }
+  ],
+  "materials": [
+    {
+      "id": "cc9674c1",
+      "name": "سیمان",
+      "unit": "کيسه",
+      "unit_price": 120000.0
+    },
+    {
+      "id": "2948edb6",
+      "name": "آجر",
+      "unit": "عدد",
+      "unit_price": 8000.0
+    },
+    {
+      "id": "be383e76",
+      "name": "میلگرد",
+      "unit": "کیلوگرم",
+      "unit_price": 45000.0
+    },
+    {
+      "id": "9e9bd3f4",
+      "name": "شیشه",
+      "unit": "متر مربع",
+      "unit_price": 900000.0
+    },
+    {
+      "id": "4ecf3ca0",
+      "name": "سنگ نما",
+      "unit": "متر مربع",
+      "unit_price": 1500000.0
+    }
+  ],
+  "projects": [
+    {
+      "id": "0ef4e857",
+      "name": "ویلای لواسان",
+      "architect_id": "e7b03d98",
+      "budget": 2000000000.0,
+      "phases": [
+        {
+          "name": "طراحي",
+          "progress": 100.0
+        },
+        {
+          "name": "پي ريزي",
+          "progress": 80.42553191489363
+        },
+        {
+          "name": "سازه",
+          "progress": 39.57446808510638
+        },
+        {
+          "name": "نما",
+          "progress": 0.0
+        }
+      ],
+      "usages": [
+        {
+          "material_id": "cc9674c1",
+          "quantity": 400.0
+        },
+        {
+          "material_id": "2948edb6",
+          "quantity": 20000.0
+        },
+        {
+          "material_id": "be383e76",
+          "quantity": 5000.0
+        }
+      ]
+    },
+    {
+      "id": "1daba413",
+      "name": "مجتمع تجاری آرمان",
+      "architect_id": "e7b03d98",
+      "budget": 5000000000.0,
+      "phases": [
+        {
+          "name": "طراحی",
+          "progress": 100.0
+        },
+        {
+          "name": "سازه",
+          "progress": 60.0
+        }
+      ],
+      "usages": [
+        {
+          "material_id": "cc9674c1",
+          "quantity": 1500.0
+        },
+        {
+          "material_id": "be383e76",
+          "quantity": 30000.0
+        },
+        {
+          "material_id": "9e9bd3f4",
+          "quantity": 800.0
+        }
+      ]
+    },
+    {
+      "id": "600c7670",
+      "name": "بازسازی آپارتمان",
+      "architect_id": "8a5c0a40",
+      "budget": 200000000.0,
+      "phases": [
+        {
+          "name": "طراحی",
+          "progress": 100.0
+        },
+        {
+          "name": "تخریب",
+          "progress": 100.0
+        },
+        {
+          "name": "اجرا",
+          "progress": 30.21276595744681
+        }
+      ],
+      "usages": [
+        {
+          "material_id": "4ecf3ca0",
+          "quantity": 150.0
+        },
+        {
+          "material_id": "cc9674c1",
+          "quantity": 100.0
+        }
+      ]
+    }
+  ]
+}
